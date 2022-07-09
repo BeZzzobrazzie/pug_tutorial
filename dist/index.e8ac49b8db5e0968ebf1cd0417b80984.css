@@ -1,0 +1,20 @@
+html {
+  font-family: generalFont;
+}
+
+h1 {
+  color: darkcyan;
+}
+
+.container__subtitle {
+  color: darkslategray;
+  display: block;
+  height: 140px;
+  background: url(/assets/26da4ea696d77c8f4509.jpg);
+}
+
+@font-face {
+  font-family: generalFont;
+  src: url(/assets/a8979f5fddba897421a7.ttf) format("truetype");
+}
+/*# sourceMappingURL=index.e8ac49b8db5e0968ebf1cd0417b80984.css.map */
