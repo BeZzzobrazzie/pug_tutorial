@@ -1,0 +1,11 @@
+extends ../layout
+
+
+
+block content
+  .col-3 
+    +card()
+      prepand body
+        +img("imageOne.jpg", "image one", "card-img-top")
+      append body 
+        +link("Card", "", "btn btn-primary")

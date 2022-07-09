@@ -20,7 +20,7 @@ module.exports = {
         clean: true,
     },
     entry: {
-        index: "./src/index.pug",
+        index: "./src/pug/pages/index.pug",
     },
     devtool: "source-map",
     optimization: {

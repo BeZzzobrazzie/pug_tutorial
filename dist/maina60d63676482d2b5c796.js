@@ -23,4 +23,4 @@ var user = _objectSpread({
 console.log(user);
 /******/ })()
 ;
-//# sourceMappingURL=main0bad65ffd6ae242e0f9b.js.map
+//# sourceMappingURL=maina60d63676482d2b5c796.js.map
