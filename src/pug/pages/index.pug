@@ -1,11 +1,23 @@
 extends ../layout
 
-
+block variables
+  -
+    let accItems = [
+      {
+        headingContent: "Item 111",
+        bodyContent: "Lorem10",
+      },
+      {
+        headingContent: "Item 2222",
+        bodyContent: "Lorem20",
+      },
+      {
+        headingContent: "Item 3333",
+        bodyContent: "Lorem30",
+      },
+    ]
 
 block content
-  .col-3 
-    +card()
-      prepand body
-        +img("imageOne.jpg", "image one", "card-img-top")
-      append body 
-        +link("Card", "", "btn btn-primary")
+
+  +acc("acc_1", accItems)
+  +acc("acc_2")
